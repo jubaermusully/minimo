@@ -1,0 +1,2 @@
+# minimo
+new website

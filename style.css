@@ -11,15 +11,18 @@ body{
 }
 /* common css */
 /*header start*/
-.header{}
+header{
+	padding: 15px 0;
+	border-bottom: 1px solid black;
+}
 .wrapper{
 	overflow: hidden;
 	margin: 0 auto;
-	width: 90%;
+	width: 85%;
 	/*border: 1px solid red;*/
 }
 .logo{
-	width: 15%;
+	width: 13%;
 	/*border: 1px solid black;*/
 	float: left;
 }
@@ -28,24 +31,166 @@ body{
 }
 
 .menu{
-	width: 70%;
-	/*border: 1px solid black;*/
+	width: 80%;
 	float: right;
+	/*border: 1px solid black;*/
+	
 }
-.menu ul{}
-.menu ul li{
-	display: inline-block;
-	float: left;
-	list-style: none;
+.menu ul {
+	margin: 7px;
+    float: right;
 }
-.menu ul li a{
-	text-decoration: none;
-	padding: 0 25px;
-	display: inline-block;
-	color: gray;
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+}
+.menu ul li a {
+    margin: 0 70px;
+    display: block;
+    text-decoration: none;
+    color: grey;
+    border-bottom: 1px solid transparent;
+
 }
 .menu ul li:last-child a{
-	padding-right: 0;
+	margin-right: 0;
 }
-.menu ul li a:hover{}
+
+.menu ul li a:hover{
+	color: gray;
+	border-bottom: 1px solid grey;
+}
 /*header end*/
+/*banner start*/
+.banner{}
+.b_img{}
+.b_img img{
+	width: 100%;
+}
+/*banner end*/
+/*perfect start*/
+.perfect{
+	padding: 70px;
+}
+.wrapper_2{
+	margin: 0 auto;
+	width: 70%;
+	/*border: 1px solid grey;*/
+}
+.p_content{
+
+}
+.c_light{
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: gray;
+	text-transform: uppercase;
+}
+.c_h1{
+	padding: 20px 0 30px;
+	font-size: 26px;
+}
+.c_text{
+	margin: 0;
+	line-height: 30px;
+}
+.mb_45{
+	margin-bottom: 45px;
+}
+
+/*perfect end*/
+/*blog start*/
+.blog{
+	margin: 70px 0 10px;
+}
+.blog_content{
+	overflow: hidden;
+}
+.s_blog{
+	margin-bottom: 60px;
+	width: 46.85%;
+	/*border: 1px solid black;*/
+	float: left;
+}
+.s_blog:nth-child(even){
+	margin-left: 6%;
+}
+.blog_img{
+	margin-bottom: 25px;
+}
+.blog_img img{
+	width: 100%;
+}
+
+/*blog end*/
+/*newsletter start*/
+.newsletter{
+	padding: 50px 0;
+	background-color: #f5f5f5;
+}
+.wrapper_3{
+	margin: 0 auto;
+	width: 60%;
+}
+.sign_up{
+	text-align: center;
+}
+.sign_up h1 {
+    margin-bottom: 60px;
+    font-size: 30px;
+}
+.form_sec{}
+.form_sec input {
+    border: none;
+    font-size: 17px;
+    border-bottom: 1px solid black;
+    padding: 4px 7px;
+    background: transparent;
+    width: 300px;
+}
+.form_sec button{}
+
+/*newsletter end*/
+/*last btn start*/
+.last_btn {
+    text-align: center;
+}
+.l_btn {
+    margin: 15% 0;
+    padding: 15px 25px;
+    font-size: 22px;
+    background: transparent;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid black;
+}
+/*last btn end*/ 
+/*footer1 start*/
+footer{
+	padding: 50px 0;
+	background-color: #f5f5f5;
+}
+.wrapper_4{
+	overflow: hidden;
+	width: 80%;
+}
+.f_footer{}
+.footer_left{
+	float: left;
+	width: 50%;
+} 
+.footer_left ul{} 
+.footer_left ul li{} 
+.footer_left ul li a{}
+.footer_right{
+	float: right;
+	width: 50%;
+}
+.footer_right ul{}
+.footer_right ul li{}
+.footer_right ul li a{}
+
+/*footer1 end*/ 
+
